@@ -37,8 +37,6 @@ Setup Resources in Azure
 2. Set Domain Controller’s NIC Private IP address to be static
     
 3. Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
-    
-4. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
 </p>
 <br />
 
