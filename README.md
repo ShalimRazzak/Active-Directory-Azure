@@ -71,7 +71,7 @@ Step 3. Install Active Directory
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
+
 Step 4. Create an Admin and Normal User Account in AD
     
 4.a In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
@@ -87,11 +87,11 @@ Step 4. Create an Admin and Normal User Account in AD
 4.f User jane_admin as your admin account from now on
 </p>
 <br />
-    
     <p>
+    
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
+
 Step 5. Join Client-1 to your domain (mydomain.com)
 
 5.a From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
@@ -106,7 +106,6 @@ Step 5. Join Client-1 to your domain (mydomain.com)
 </p>
 <br />
     
-    <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
