@@ -136,12 +136,12 @@ Step 7. Create a bunch of additional users and attempt to log into client-1 with
 
 7.c Create a new File and paste the contents of the script into it
     
-    - # ----- Edit these Variables for your own Use Case ----- #
+    # ----- Edit these Variables for your own Use Case ----- #
 $PASSWORD_FOR_USERS   = "Password1"
 $NUMBER_OF_ACCOUNTS_TO_CREATE = 10000
 # ------------------------------------------------------ #
 
-Function generate-random-name() {
+Function generate-random-name() {{
     $consonants = @('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z')
     $vowels = @('a','e','i','o','u','y')
     $nameLength = Get-Random -Minimum 3 -Maximum 7
@@ -181,7 +181,8 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
                -Path "ou=_EMPLOYEES,$(([ADSI]`"").distinguishedName)" `
                -Enabled $true
     $count++
-}
+}}
+    
 (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 
 7.d Run the script and observe the accounts being created
