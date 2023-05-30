@@ -30,13 +30,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 Step 1. Setup Resources in Azure
     
-1.a Create the Domain Controller VM (Windows Server 2022) named “DC-1”
-    
-        1.1 Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+1.a Create the Domain Controller VM (Windows Server 2022) named “Random Name”
+    1.1 Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
     
 1.b Set Domain Controller’s NIC Private IP address to be static
     
-1.c Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.1
+1.c Create the Client VM (Windows 10) named “Random Name”. Use the same Resource Group and Vnet that was created in Step 1.1
 </p>
 <br />
 
@@ -82,11 +81,11 @@ Step 4. Create an Admin and Normal User Account in AD
 
 4.d Add jane_admin to the “Domain Admins” Security Group
 
-4.e Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+4.e Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain  .com\jane_admin”
 
 4.f User jane_admin as your admin account from now on
 </p>
-<br />
+<br />  
     <p>
     
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -102,7 +101,6 @@ Step 5. Join Client-1 to your domain (mydomain.com)
 
 5.d Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
 
-5.e Create a new OU named “_CLIENTS” and drag Client-1 into there
 </p>
 <br />
     
