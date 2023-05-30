@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 Setup Resources in Azure
 1. Create the Domain Controller VM (Windows Server 2022) named “DC-1”
     
-    -a. Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+            -a. Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
     
 2. Set Domain Controller’s NIC Private IP address to be static
     
