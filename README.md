@@ -136,7 +136,7 @@ Step 7. Create a bunch of additional users and attempt to log into client-1 with
 
 7.c Create a new File and paste the contents of the script into it
     
-(Generate-Names-Create-Users.ps1)
+(https://github.com/ShalimRazzak/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 
 7.d Run the script and observe the accounts being created
 
