@@ -24,14 +24,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 Step 1. Setup Resources in Azure
     
 1.a Create the Domain Controller VM (Windows Server 2022) named “Random Name”
-    1.1 Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+   
+  1.1 Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
     
 1.b Set Domain Controller’s NIC Private IP address to be static
     
@@ -40,35 +38,38 @@ Step 1. Setup Resources in Azure
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/X3gzNA0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DhdLYay.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Step 2. Ensure Connectivity between the client and Domain Controller
+
+Step 2. Install Active Directory
     
-2.a Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
+2.a Login to DC-1 and install Active Directory Domain Services
 
-2.b Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+2.b Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
 
-2.c Check back at Client-1 to see the ping succeed
+2.c Restart and then log back into DC-1 as user: mydomain.com\labuser
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 3. Install Active Directory
-    
-3.a Login to DC-1 and install Active Directory Domain Services
-
-3.b Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
-
-3.c Restart and then log back into DC-1 as user: mydomain.com\labuser
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 Step 4. Create an Admin and Normal User Account in AD
@@ -104,7 +105,7 @@ Step 5. Join Client-1 to your domain (mydomain.com)
 </p>
 <br />
     
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/umM96eP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 6. Setup Remote Desktop for non-administrative users on Client-1
@@ -140,5 +141,8 @@ Step 7. Create a bunch of additional users and attempt to log into client-1 with
 
 7.f attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
 <br />
