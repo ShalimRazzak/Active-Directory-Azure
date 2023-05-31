@@ -56,20 +56,13 @@ Step 2. Install Active Directory
 <br />
 
 <p>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T5jiBQO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UuqD9aL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZJwara5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WA9qQHW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FTCv0O7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xaRqoEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 Step 4. Create an Admin and Normal User Account in AD
@@ -89,7 +82,14 @@ Step 4. Create an Admin and Normal User Account in AD
 <br />  
     <p>
     
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 Step 5. Join Client-1 to your domain (mydomain.com)
