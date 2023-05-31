@@ -65,81 +65,88 @@ Step 2. Install Active Directory
 
 </p>
 
-Step 4. Create an Admin and Normal User Account in AD
+Step 3. Create an Admin and Normal User Account in AD
     
-4.a In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+3.a In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
 
-4.b Create a new OU named “_ADMINS”
+3.b Create a new OU named “_ADMINS”
 
-4.c Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+3.c Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
 
-4.d Add jane_admin to the “Domain Admins” Security Group
+3.d Add jane_admin to the “Domain Admins” Security Group
 
-4.e Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain  .com\jane_admin”
+3.e Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain  .com\jane_admin”
 
-4.f User jane_admin as your admin account from now on
+3.f User jane_admin as your admin account from now on
 </p>
 <br />  
     <p>
     
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/sBTFEXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RfpJvhU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FaNfk6r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ULZuBzh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QmfBNQX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZbKjLHk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xkLryJO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/McUm7bI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oyxk6Nz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-Step 5. Join Client-1 to your domain (mydomain.com)
+Step 4. Join Client-1 to your domain (mydomain.com)
 
-5.a From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+4.a From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
 
-5.b From the Azure Portal, restart Client-1
+4.b From the Azure Portal, restart Client-1
 
-5.c Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
-
-5.d Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+4.c Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
 
 </p>
 <br />
-    
+<img src="https://i.imgur.com/1wdmcA8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FHIa3Je.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
+<img src="https://i.imgur.com/KusrKcl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/umM96eP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oyxk6Nz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
+<img src="https://i.imgur.com/DNjGbSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/275hoZL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BdA5ibU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
+<img src="https://i.imgur.com/KvZA7ea.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 </p>
 <p>
-Step 6. Setup Remote Desktop for non-administrative users on Client-1
+Step 5. Setup Remote Desktop for non-administrative users on Client-1
     
-6.a Log into Client-1 as mydomain.com\jane_admin and open system properties
+5.a Log into Client-1 as mydomain.com\jane_admin and open system properties
 
-6.b Click “Remote Desktop”
+5.b Click “Remote Desktop”
 
-6.c Allow “domain users” access to remote desktop
+5.c Allow “domain users” access to remote desktop
 
-6.d You can now log into Client-1 as a normal, non-administrative user now
+5.d You can now log into Client-1 as a normal, non-administrative user now
 
-6.e Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab)
+5.e Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab)
 </p>
 <br />
     
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 7. Create a bunch of additional users and attempt to log into client-1 with one of the users
+Step 6. Create a bunch of additional users and attempt to log into client-1 with one of the users
     
-7.a Login to DC-1 as jane_admin
+6.a Login to DC-1 as jane_admin
 
-7.b Open PowerShell_ise as an administrator
+6.b Open PowerShell_ise as an administrator
 
-7.c Create a new File and paste the contents of the script into it
+6.c Create a new File and paste the contents of the script into it
     
 (https://github.com/ShalimRazzak/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 
-7.d Run the script and observe the accounts being created
+6.d Run the script and observe the accounts being created
 
-7.e When finished, open ADUC and observe the accounts in the appropriate OU
+6.e When finished, open ADUC and observe the accounts in the appropriate OU
 
-7.f attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+6.f attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
