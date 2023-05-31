@@ -106,11 +106,6 @@ Step 4. Join Client-1 to your domain (mydomain.com)
 <img src="https://i.imgur.com/FHIa3Je.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
 <img src="https://i.imgur.com/KusrKcl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/umM96eP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Oyxk6Nz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
-<img src="https://i.imgur.com/DNjGbSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/275hoZL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/BdA5ibU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
-<img src="https://i.imgur.com/KvZA7ea.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
@@ -129,7 +124,11 @@ Step 5. Setup Remote Desktop for non-administrative users on Client-1
 </p>
 <br />
     
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oyxk6Nz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
+<img src="https://i.imgur.com/DNjGbSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/275hoZL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BdA5ibU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>    
+<img src="https://i.imgur.com/KvZA7ea.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 6. Create a bunch of additional users and attempt to log into client-1 with one of the users
